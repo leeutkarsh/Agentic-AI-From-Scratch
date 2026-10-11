@@ -22,7 +22,7 @@
    - [3.8 What is LangGraph and why do we need it?](#38-what-is-langgraph-and-why-do-we-need-it)
    - [3.9 Graph vocabulary: State, Node, Edge](#39-graph-vocabulary-state-node-edge)
    - [3.10 Message types](#310-message-types)
-4. [PART B — Setup](#-part-b--setup-your-computer)
+4. [PART B — Setup](#%EF%B8%8F-part-b--setup-your-computer)
 5. [PART C — Build the Agent Step by Step](#-part-c--build-the-agent-step-by-step)
 6. [PART D — The Complete Code](#-part-d--the-complete-code)
 7. [PART E — Run It!](#-part-e--run-it)
