@@ -29,9 +29,7 @@
 8. [PART F — How One Question Flows Through the Agent](#-part-f--how-one-question-flows-through-the-agent)
 9. [Troubleshooting](#-troubleshooting)
 10. [Safety Warning](#%EF%B8%8F-safety-warning)
-11. [What I Simplified From the Original Code](#-what-i-simplified-from-the-original-code)
-12. [Next Steps / Challenges](#-next-steps--challenges)
-13. [Glossary (Cheat Sheet)](#-glossary-cheat-sheet)
+11. [Glossary (Cheat Sheet)](#-glossary-cheat-sheet)
 
 ---
 
