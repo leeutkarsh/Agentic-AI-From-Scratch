@@ -403,7 +403,6 @@ venv\Scripts\activate.bat
 Create a file called **`requirements.txt`**:
 
 ```text
-ollama
 langchain-core
 langchain-openai
 langgraph
