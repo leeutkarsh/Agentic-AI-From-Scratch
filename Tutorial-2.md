@@ -20,19 +20,18 @@ We continue with the same stack: **Ollama Cloud + LangChain + LangGraph**.
 
 ## 📚 Table of Contents
 
-1. [What was missing in Tutorial 1?](#part-a--the-concepts)
-2. [The concepts you need to learn](#part-a--the-concepts)
-3. [Setup: project structure and dependencies](#part-b--setup)
-4. [Build the improved agent](#part-c--build-the-improved-agent)
-5. [Understand the new code](#part-d--understand-the-new-code)
-6. [Run and test the agent](#part-e--run-it)
-7. [Troubleshooting](#part-f--troubleshooting)
-8. [Limitations and safety notes](#part-g--important-limitations)
-9. [What Tutorial 3 will teach](#part-h--whats-next-tutorial-3)
+- [Part A — The Concepts](#part-a--the-concepts) (what was missing in Tutorial 1, memory, checkpointers, safe workspace)
+- [Part B — Setup](#part-b--setup) (project structure and dependencies)
+- [Part C — Build the Improved Agent](#part-c--build-the-improved-agent) (the full `agent.py`)
+- [Part D — Understand the New Code](#part-d--understand-the-new-code)
+- [Part E — Run It!](#part-e--run-it) (seven tests)
+- [Part F — Troubleshooting](#part-f--troubleshooting)
+- [Part G — Important Limitations](#part-g--important-limitations)
+- [Part H — What's Next: Tutorial 3](#part-h--whats-next-tutorial-3)
 
 ---
 
-# 🧠 PART A — The Concepts
+# PART A — The Concepts
 
 ## 1. The problem with your first agent
 
@@ -137,7 +136,7 @@ We also stop the agent from writing over an existing file.
 
 ---
 
-# 🛠️ PART B — Setup
+# PART B — Setup
 
 ## Step 1 — Update your project structure
 
@@ -221,7 +220,7 @@ This keeps your API key, your local conversation database, and your practice fil
 
 ---
 
-# 🧱 PART C — Build the Improved Agent
+# PART C — Build the Improved Agent
 
 Replace the contents of `agent.py` with the complete code below. It is the **same architecture as Tutorial 1** (a model node, a tools node, and a loop between them), with memory and safety added. Read it once top to bottom; Part D explains every new piece.
 
@@ -415,7 +414,7 @@ if __name__ == "__main__":
 
 ---
 
-# 🧩 PART D — Understand the New Code
+# PART D — Understand the New Code
 
 You already know `@tool`, `bind_tools`, `StateGraph`, `ToolNode`, `ask`, and `tools_condition` from Tutorial 1. Let's focus on what is new.
 
@@ -580,7 +579,7 @@ Use the real ID printed by your program, not the example above.
 
 ---
 
-# ▶️ PART E — Run It!
+# PART E — Run It!
 
 Activate your virtual environment and run:
 
@@ -654,7 +653,7 @@ Create `hello.txt` first, then ask the agent to create it again with different c
 
 ---
 
-# 🩺 PART F — Troubleshooting
+# PART F — Troubleshooting
 
 | Problem | What to check |
 | --- | --- |
@@ -670,7 +669,7 @@ Create `hello.txt` first, then ask the agent to create it again with different c
 
 ---
 
-# ⚠️ PART G — Important Limitations
+# PART G — Important Limitations
 
 This is a much better foundation, but it is **not production-ready**. Know its limits:
 
@@ -684,7 +683,7 @@ This is a much better foundation, but it is **not production-ready**. Know its l
 
 ---
 
-# 🚀 PART H — What's Next: Tutorial 3
+# PART H — What's Next: Tutorial 3
 
 ## Tutorial 3 — Human-in-the-Loop Approval
 
